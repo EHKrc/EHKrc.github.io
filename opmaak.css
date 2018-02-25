@@ -1,0 +1,185 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    background-color: #cee8df;
+    background-image: url('Sterretjes blauw.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+#container {
+  width: 1063px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 2fr 6fr 6fr 1fr;
+  grid-template-areas: "hoofd hoofd hoofd"
+                       "menu midden1 fotos"
+                       "menu midden2 fotos"
+                       "menu voet fotos";
+}
+
+#zijkant {
+  padding: 2px;
+  margin: 20px;
+  margin-bottom: 40px;
+  border: 2px outset;
+  border-color: lightblue;
+}
+
+#zijkant2 {
+  padding: 2px;
+  margin: 20px;
+  margin-bottom: 70px;
+  border: 2px outset;
+  border-color: lightblue;
+}
+
+#zijkant3 {
+  padding: 2px;
+  margin: 20px;
+  margin-bottom: 7px;
+  border: 2px outset;
+  border-color: lightblue;
+}
+
+#zijkant4 {
+  padding: 2px;
+  margin: 20px;
+  margin-bottom: 7px;
+  border: 2px outset;
+  border-color: lightblue;
+}
+
+#bovenbalk {
+  grid-area: hoofd;
+  background-color: #cee8df;
+}
+
+#linkerkolom {
+  background-color: #9ab7ad;
+  grid-area: menu;
+  border: 4px outset;
+  padding: 7px;
+  margin: 7px;
+}
+
+#centrum1 {
+  background-color: #cee8df;
+  grid-area: midden1;
+  margin: 7px;
+  padding: 7px;
+}
+
+#centrum2 {
+  background-color: #cee8df;
+  grid-area: midden2;
+   margin: 16px;;
+}
+
+#rechterkolom {
+  background-color: #9ab7ad;
+  border: 4px outset;
+  grid-area: fotos;
+  margin: 4px;
+  padding: 3px;
+}
+
+#footer {
+  background-color: #cee8df;
+  grid-area: voet;
+}
+
+h1 {
+  background-color: #cee8df;
+  border: 4px inset;
+  padding: 16px;
+  border-color: rgb(138, 184, 194);
+  text-align: center;
+  font-family: "Verdana";
+  color: rgb(50, 175, 228);
+  font-size: 33px;
+}
+
+h2 {
+  color: #46938d;
+  font-size: 27px;
+  border-radius: 10px;
+  margin-top: 23px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: "Baskerville";
+}
+
+p {
+  font-style: italic;
+  font-size: 18px;
+  text-align: justify;
+  font-family: "Centaur";
+  font-weight: bold;
+  color: #628784;
+}
+
+h3 {
+  font-style: normal;
+  font-size: 24px;
+  text-align: justify;
+  font-family: "Centaur";
+  font-weight: bold;
+  color: #6f897c;
+}
+
+h4 {
+  font-style: normal;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Centaur";
+  font-weight: bold;
+  color: black;
+}
+
+h5 {
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+  font-family: "Centaur";
+  font-weight: normal;
+  color: black;
+}
+
+h6 {
+  font-style: italic;
+  font-size: 18px;
+  text-align: justify;
+  font-family: "Centaur";
+  font-weight: bold;
+  color: black;
+}
+
+a:link{
+  color: rgb(7, 31,	249);
+}
+a:visited{
+  color: rgb(110, 7, 249);
+}
+a:hover {
+color: rgb(7, 209, 249);
+}
+a:active{
+  color:rgb(223, 10, 10);
+}
+
+th,td.tabel1{
+  border-style: inset;
+  border-width: 3px;
+  border-color: rgb(50, 175, 228);
+  margin: 7px;
+  padding: 7px;
+}
+table.tabel{
+  border-collapse: collapse;
+}
